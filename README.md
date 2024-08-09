@@ -47,6 +47,12 @@ To evaluate the model
 | --data-split 4  | Fold 4 | [1,2,3,5,6] | [4] |
 | --data-split 16  | Fold 5 | [1,2,3,4,6] | [5] |
 
+#### Available Models:
+| Model | Name | Description |     
+|---|---|---|
+| --model TG  | GT-Millinoise | Standart GT-Millinoise architecture |
+
+
 
 ### Datasets
 The models were evaluated with the following datasets:
