@@ -2,8 +2,8 @@
 
 (Paper under submission) [[Project]]() [[Paper]]() 
 
-This GitHub contains the code to implement  _GT-MilliNoise_ architecture for millimeter-wave point cloud denoising.
-The architecture was designed using the _MilliNoise_ dataset.    
+This GitHub contains the code to implement  _GT-MilliNoise_ architecture for millimetre-wave point cloud denoising using the _MilliNoise_ dataset.    
+This Github also provides benchmarking on state-of-art architecture (PointNet, PointNet++, DGCNN, Transformer) on _MilliNoise_ point cloud denoising.
 
 MillNoise Dataset: [[Dataset]](https://github.com/c3lab/MilliNoise)  [[Paper]](https://dl.acm.org/doi/10.1145/3625468.3652189) 
 
