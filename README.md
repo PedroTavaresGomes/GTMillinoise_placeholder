@@ -28,7 +28,7 @@ The Makefiles to compile the code are in `modules/tf_ops`
 #### 
 To train a model for mmw point cloud denoising:
 
-    python train.py --version <name_of_model> --data-split <dataset_split_number> --model <architecture_name>  --seq-length <input_frames>
+    python train.py --version <name_of_model> --data-split <#split> --model <architecture_name>  --seq-length <input_frames>
 
 For example:
 
@@ -40,10 +40,10 @@ To evaluate the model
 
     python test.py --version v0 --data-split 13 --model TG --seq-length 12 --manual-restore 2 (loads best model in validation)
 #### Splits:
-| Split name | Column 2 | Column 3 |
-|---|---|---|
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
+| #Split: | K-Fold: | Training Scenarios | Test-Scenarios    
+|---|---|---|---|
+| Fold 1-6 | Fold 1-6 | All[1-6] | All[1-6] |
+| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 | Row 1, Cell 3 |
 
 
 
