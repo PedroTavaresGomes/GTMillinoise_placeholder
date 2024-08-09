@@ -42,9 +42,10 @@ To evaluate the model
 #### Splits:
 | #Split: | K-Fold: | Training Scenarios | Test-Scenarios    
 |---|---|---|---|
-| Fold 1-6 | Fold 1-6 | All[1-6] | All[1-6] |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 | Row 1, Cell 3 |
-
+| --data-split 11  | Fold 1-6 | All [1-6] | All [1-6] |
+| --data-split 17  | Fold 1,2,3 | [4,5,6] | [1,2,3] |
+| --data-split 4  | Fold 4 | [1,2,3,5,6] | [4] |
+| --data-split 16  | Fold 5 | [1,2,3,4,6] | [5] |
 
 
 ### Datasets
