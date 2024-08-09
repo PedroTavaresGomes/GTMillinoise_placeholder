@@ -2,7 +2,7 @@
 
 [[Project]](https://github.com/pedro-dm-gomes/Graph-RNN) [[Paper]](https://arxiv.org/abs/2102.07482) 
 
-This GitHub contains the code to implement _ GT-MilliNoise_ architecture for millimeter-wave point cloud denoising.
+This GitHub contains the code to implement  _GT-MilliNoise_ architecture for millimeter-wave point cloud denoising.
 The architecture was designed using the _MilliNoise_ dataset.    
 
 MillNoise Dataset: [[Dataset]](https://github.com/c3lab/MilliNoise)  [[Paper]](https://dl.acm.org/doi/10.1145/3625468.3652189) 
@@ -15,7 +15,7 @@ MillNoise Dataset: [[Dataset]](https://github.com/c3lab/MilliNoise)  [[Paper]](h
 ## Citation
 Please cite this paper if you want to use it in your work,
 
-	@article{comming soon,
+	@article{coming soon,
 	  }
 ### Installation
 
@@ -26,7 +26,7 @@ The Makefiles to compile the code are in `modules/tf_ops`
 
 ### Usage 
 #### 
-To train a model for mmw point cloud denoising:
+To train a model for millimeter-wave point cloud denoising:
 
     python train.py --version <name_of_model> --data-split <#split> --model <architecture_name>  --seq-length <input_frames>
 
