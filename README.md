@@ -6,7 +6,7 @@
 MillNoise Dataset at 
 
 ## Overview
-<img src="https://github.com/PedroTavaresGomes/GTMillinoise_placeholder/imgs/pipeline.png" scale="0.2">
+<img src="https://github.com/PedroTavaresGomes/GTMillinoise_placeholder/blob/main/imgs/pipeline.png" scale="0.2">
 
 
 ## Citation
