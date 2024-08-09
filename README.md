@@ -19,21 +19,26 @@ Please cite this paper if you want to use it in your work,
 	  }
 ### Installation
 
-Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. The code has been tested with Python 3.6, TensorFlow 1.12.0, CUDA 9.0 and cuDNN 7.21
+Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. The code has been tested with Python 3.6, TensorFlow 1.10.0, CUDA 9.0 and cuDNN 7.3
 
-Compile the code. You must select the correct CUDA version and Tensorflow installed on your computer. For that edit the Makefiles to the paths of your Cuda and Tensorflow directories.
+Compile the code. You must select the correct CUDA version and install Tensorflow on your computer. For that edit the Makefiles to the paths of your Cuda and Tensorflow directories.
 The Makefiles to compile the code are in `modules/tf_ops`
 
-### Usage
-#### MNIST
-To train a model to long-term prediction using the GraphRNN
+### Usage 
+#### 
+To train a model for mmw point cloud denoising:
 
-    python train-mmnist-GraphRNN.py
+    python train.py --version <name_of_model> --data-split <dataset_split_number> --model <architecture_name>  --seq-length <input_frames>
+
+For example:
+
+    python train.py --version v0 --data-split 13 --model TG  --seq-length 12 --manual-restore 2 (loads best model in validation)
+
+Trains a GT-Millinoise model using dataset split #13 
 
 To evaluate the model
 
-    python eval-mmnist.py
-
+    python test.py --version v0 --data-split 13 --model TG --seq-length 12
 #### Human Bodies 
 to train the model without color or with color
 
