@@ -32,13 +32,13 @@ To train a model for mmw point cloud denoising:
 
 For example:
 
-    python train.py --version v0 --data-split 13 --model TG  --seq-length 12 --manual-restore 2 (loads best model in validation)
+    python train.py --version v0 --data-split 13 --model TG  --seq-length 12 
 
 Trains a GT-Millinoise model using dataset split #13 
 
 To evaluate the model
 
-    python test.py --version v0 --data-split 13 --model TG --seq-length 12
+    python test.py --version v0 --data-split 13 --model TG --seq-length 12 --manual-restore 2 (loads best model in validation)
 #### Human Bodies 
 to train the model without color or with color
 
