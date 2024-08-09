@@ -51,6 +51,13 @@ To evaluate the model
 | Model | Name | Description |     
 |---|---|---|
 | --model TG  | GT-Millinoise | Standart GT-Millinoise architecture |
+| --model PointNet  | PoinNet | |
+| --model PointNet_2  | PointNet++ |  |
+| --model DGCNN  | Dynamci Graph CNN (DGCNN) |  |
+| --model Transformer  | Vannila-Transformer |  |
+| --model GT_intensity  | GT-Millinoise | GT-Millinoise with intensity as input |
+| --model GT_velocity  | GT-Millinoise | GT-Millinoise with velocity as input |
+| --model GT_noTC  | GT-Millinoise | GT-Millinoise with  without temporal block |
 
 
 
@@ -58,18 +65,18 @@ To evaluate the model
 The models were evaluated with the following datasets:
 1. [Moving MNIST Point Cloud (1 digit)](https://drive.google.com/open?id=17RpNwMLDcR5fLr0DJkRxmC5WgFn3RwK_) &emsp; 2. [Moving MNIST Point Cloud (2 digits)](https://drive.google.com/open?id=11EkVsE5fmgU5D5GsOATQ6XN17gmn7IvF) &emsp; 3. [JPEG Dynamic Human Bodies (4000 points)](https://drive.google.com/file/d/1hbB1EPKq3UVlXUL5m81M1E6_s5lWmoB-/view)
 
-To create the Human Bodies dataset follow the instruction in the Dataset folder.
+To create the Human Bodies dataset, follow the instructions in the Dataset folder.
 
 ## Visual Results
 
 ![with = 0.25/pagewith](gif_results_fast.gif)
 
 ## Acknowledgement
-The parts of this codebase is borrowed from Related Repos:
+The parts of this codebase are borrowed from Related Repos:
 
 ### Related Repos
 1. PointRNN TensorFlow implementation: https://github.com/hehefan/PointRNN
 2. PointNet++ TensorFlow implementation: https://github.com/charlesq34/pointnet2
 3. Dynamic Graph CNN for Learning on Point Clouds https://github.com/WangYueFt/dgcnn
-4. Temporal Interpolation of Dynamic Point Clouds using Convolutional Neural Networks https://github.com/jelmr/pc_temporal_interpolation
+4. Millinoise https://github.com/c3lab/MilliNoise
 
