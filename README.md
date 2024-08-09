@@ -1,6 +1,6 @@
 # _GT-MilliNoise_: Graph Transformer for Point-wise Denoising of Indoor Millimeter-Wave Point Clouds
 
-[[Project]](https://github.com/pedro-dm-gomes/Graph-RNN) [[Paper]](https://arxiv.org/abs/2102.07482) 
+(Paper under submission) [[Project]]() [[Paper]]() 
 
 This GitHub contains the code to implement  _GT-MilliNoise_ architecture for millimeter-wave point cloud denoising.
 The architecture was designed using the _MilliNoise_ dataset.    
