@@ -24,11 +24,11 @@ Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank
 Compile the code. You must select the correct CUDA version and install Tensorflow on your computer. For that edit the Makefiles to the paths of your Cuda and Tensorflow directories.
 The Makefiles to compile the code are in `modules/tf_ops`
 
-
 ## Directory paths
---log-dir
+You must specific the following directory (parse as input to train.py and test.py)
+--data-dir: Path were the dataset is stored
+--log-dir: Path were the model outputs should be saved.
 
---data-dir
 
 ### Usage 
 #### 
@@ -44,7 +44,10 @@ Trains a GT-Millinoise model using dataset split #4 (Fold-4)
 
 To evaluate the model
 
-    python test.py --version v0 --data-split 4 --model TG --seq-length 12 --manual-restore 2 (loads best model in validation)
+    python test.py --version v0 --data-split 4 --model TG --seq-length 12 --manual-restore 2 
+
+  --manual-restore 2: loads best model in validation, --manual-restore 1 allows to choose a specific checkpoint
+
 #### Splits:
 | #Split: | K-Fold: | Training Scenarios | Test-Scenarios    
 |---|---|---|---|
@@ -71,10 +74,8 @@ To evaluate the model
 The models were evaluated with the following datasets:
 1. [Raw Data](https://github.com/c3lab/MilliNoise) &emsp; 2. [Pre-processed Data used in Experimentation](https://drive.google.com/drive/folders/1VsGyA5BAXvA7Rh-vBG3n2Z6-CFw0Zg75?usp=sharing) &emsp; 
 
-We pre-process the JSON files from the MilliNoise dataset to numpy format. We provide both datasets.
-## Visual Results
+We pre-process the JSON files from the MilliNoise dataset to numpy format. We provide both formats.
 
-![with = 0.25/pagewith](gif_results_fast.gif)
 
 ## Acknowledgement
 The parts of this codebase are borrowed from Related Repos:
