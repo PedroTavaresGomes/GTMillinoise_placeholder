@@ -69,10 +69,9 @@ To evaluate the model
 
 ### Datasets
 The models were evaluated with the following datasets:
-1. [Moving MNIST Point Cloud (1 digit)](https://drive.google.com/open?id=17RpNwMLDcR5fLr0DJkRxmC5WgFn3RwK_) &emsp; 2. [Moving MNIST Point Cloud (2 digits)](https://drive.google.com/open?id=11EkVsE5fmgU5D5GsOATQ6XN17gmn7IvF) &emsp; 3. [JPEG Dynamic Human Bodies (4000 points)](https://drive.google.com/file/d/1hbB1EPKq3UVlXUL5m81M1E6_s5lWmoB-/view)
+1. [Raw Data](https://github.com/c3lab/MilliNoise) &emsp; 2. [Pre-processed Data used in Experimentation](https://drive.google.com/drive/folders/1VsGyA5BAXvA7Rh-vBG3n2Z6-CFw0Zg75?usp=sharing) &emsp; 
 
-To create the Human Bodies dataset, follow the instructions in the Dataset folder.
-
+We pre-process the JSON files from the MilliNoise dataset to numpy format. We provide both datasets.
 ## Visual Results
 
 ![with = 0.25/pagewith](gif_results_fast.gif)
