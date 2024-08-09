@@ -72,7 +72,7 @@ To evaluate the model
 
 ### Datasets
 The models were evaluated with the following datasets:
-1. [Raw Data](https://github.com/c3lab/MilliNoise) &emsp; 2. [Pre-processed Data used in Experimentation](https://drive.google.com/drive/folders/1VsGyA5BAXvA7Rh-vBG3n2Z6-CFw0Zg75?usp=sharing) &emsp; 
+1. [Complete Raw Data (JSON) ](https://github.com/c3lab/MilliNoise) &emsp; 2. [Pre-processed Data (Numpy)](https://drive.google.com/drive/folders/1VsGyA5BAXvA7Rh-vBG3n2Z6-CFw0Zg75?usp=sharing) &emsp; 
 
 We provide the dataset in two formats.
 1. The original JSON data  with complete information (intensity, velocity, roto-translation coordinates).
