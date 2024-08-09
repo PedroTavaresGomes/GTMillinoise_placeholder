@@ -24,6 +24,12 @@ Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank
 Compile the code. You must select the correct CUDA version and install Tensorflow on your computer. For that edit the Makefiles to the paths of your Cuda and Tensorflow directories.
 The Makefiles to compile the code are in `modules/tf_ops`
 
+
+## Directory paths
+--log-dir
+
+--data-dir
+
 ### Usage 
 #### 
 To train a model for millimeter-wave point cloud denoising:
