@@ -26,8 +26,8 @@ The Makefiles to compile the code are in `modules/tf_ops`
 
 ### Directory paths
 You must specific the following directory (parse as input to train.py and test.py)
---data-dir: Path were the dataset is stored
---log-dir: Path were the model outputs should be saved.
+1. --data-dir: Path were the dataset is stored
+2. --log-dir: Path were the model outputs should be saved.
 
 
 ## Usage 
