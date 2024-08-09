@@ -39,16 +39,12 @@ Trains a GT-Millinoise model using dataset split #13
 To evaluate the model
 
     python test.py --version v0 --data-split 13 --model TG --seq-length 12 --manual-restore 2 (loads best model in validation)
-#### Human Bodies 
-to train the model without color or with color
+#### Splits:
+| Split name | Column 2 | Column 3 |
+|---|---|---|
+| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
+| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
 
-    python train-bodies-GraphRNN.py
-    python train-bodies-GraphRNN_color.py
-
-to evaluate
-
-    python eval-bodies.py
-    python eval-bodies_color.py
 
 
 ### Datasets
