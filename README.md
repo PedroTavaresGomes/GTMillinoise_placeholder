@@ -6,7 +6,8 @@
 MillNoise Dataset at 
 
 ## Overview
-<img src="https://github.com/pedro-dm-gomes/Graph-RNN/blob/main/full_scheme.png" scale="0.2">
+<img src="https://github.com/PedroTavaresGomes/GTMillinoise_placeholder/imgs/pipelin.png" scale="0.2">
+
 
 ## Citation
 Please cite this paper if you want to use it in your work,
