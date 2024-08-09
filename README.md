@@ -17,21 +17,21 @@ Please cite this paper if you want to use it in your work,
 
 	@article{coming soon,
 	  }
-### Installation
+## Installation
 
 Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. The code has been tested with Python 3.6, TensorFlow 1.10.0, CUDA 9.0 and cuDNN 7.3
 
 Compile the code. You must select the correct CUDA version and install Tensorflow on your computer. For that edit the Makefiles to the paths of your Cuda and Tensorflow directories.
 The Makefiles to compile the code are in `modules/tf_ops`
 
-## Directory paths
+### Directory paths
 You must specific the following directory (parse as input to train.py and test.py)
 --data-dir: Path were the dataset is stored
 --log-dir: Path were the model outputs should be saved.
 
 
-### Usage 
-#### 
+## Usage 
+
 To train a model for millimeter-wave point cloud denoising:
 
     python train.py --version <name_of_model> --data-split <#split> --model <architecture_name>  --seq-length <input_frames>
